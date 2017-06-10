@@ -8,6 +8,7 @@
   <modules>
   	<module>../wire.rest</module>
   	<module>../wire.api</module>
+  	<module>../wire.impl</module>
   </modules>
   
    <dependencies>
