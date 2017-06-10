@@ -10,7 +10,8 @@
   	<module>../wire.api</module>
   	<module>../wire.impl</module>
   </modules>
-  
+    <name>maven-jsr330-plugin Maven Plugin</name>
+    
    <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -18,6 +19,13 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+    
+    <!-- jsr 330 注解依赖 -->
+     <dependency>  
+    <groupId>javax.inject</groupId>  
+    <artifactId>javax.inject</artifactId>  
+    <version>1</version>  
+ </dependency>  	
     
         <dependency>
             <groupId>org.springframework</groupId>
@@ -31,18 +39,7 @@
             <version>4.2.3.RELEASE</version>
         </dependency>
 
-        <!-- 数据库驱动类库-->
-        <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
-            <version>5.1.42</version>
-        </dependency>
-		<!-- 连接池类库-->
-        <dependency>
-            <groupId>commons-dbcp</groupId>
-            <artifactId>commons-dbcp</artifactId>
-            <version>1.4</version>
-        </dependency>
+     
 		<!-- web 类库 -->
         <dependency>
             <groupId>javax.servlet</groupId>
