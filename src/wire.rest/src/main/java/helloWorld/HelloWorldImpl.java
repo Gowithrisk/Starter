@@ -5,14 +5,14 @@ import javax.inject.Inject;
 import org.apache.log4j.Logger;
 
 import helloWorld.Interface.IHelloWorldRest;
-import service.ISayHiApi;
+import helloworld.hello.serviceImpl.SayHiServiceImpl;
 
 public class HelloWorldImpl implements IHelloWorldRest
 {
 	Logger log = Logger.getLogger(HelloWorldImpl.class);
 
 	@Inject
-	private ISayHiApi wireapi;
+	private SayHiServiceImpl sayHiServiceImpl;
 
 	@Override
 	public String sayHello()
@@ -20,7 +20,7 @@ public class HelloWorldImpl implements IHelloWorldRest
 		String something = null;
 		try
 		{
-			something = wireapi.sayHello();
+			something = sayHiServiceImpl.sayHello();
 		}
 		catch (Exception e)
 		{

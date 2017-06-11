@@ -13,11 +13,11 @@
   </parent>
   
   <dependencies>
-	  	<dependency>
-		 	<groupId>com.newcity</groupId>
-		    <artifactId>wire.api</artifactId>
-		 	 <version>0.0.1-SNAPSHOT</version>
-	  	</dependency>
+	 	<dependency>
+  			<groupId>newcity</groupId>
+    		<artifactId>wire.impl</artifactId>
+    		<version>0.0.1-SNAPSHOT</version> 
+  		</dependency>
   </dependencies>
   
 </project>
