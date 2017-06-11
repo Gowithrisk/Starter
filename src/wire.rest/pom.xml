@@ -11,4 +11,13 @@
 	  <version>0.0.1-SNAPSHOT</version>
 	  <relativePath>../parent/pom.xml</relativePath>
   </parent>
+  
+  <dependencies>
+	  	<dependency>
+		 	<groupId>com.newcity</groupId>
+		    <artifactId>wire.api</artifactId>
+		 	 <version>0.0.1-SNAPSHOT</version>
+	  	</dependency>
+  </dependencies>
+  
 </project>

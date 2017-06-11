@@ -6,7 +6,7 @@ package service;
  * @author Administrator
  *
  */
-public interface IWireApi
+public interface ISayHiApi
 {
-	void sayHello() throws Exception;
+	String sayHello() throws Exception;
 }

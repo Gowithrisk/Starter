@@ -4,10 +4,11 @@
 package helloWorld.Interface;
 
 /**
- * @author Administrator
+ * @author Admin
  *
  */
-public interface IHelloWorld
+
+public interface IHelloWorldRest
 {
 	String sayHello();
 }

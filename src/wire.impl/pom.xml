@@ -8,6 +8,13 @@
   <packaging>war</packaging>
   
   <dependencies>
+  
+  		<dependency>
+  			<groupId>com.newcity</groupId>
+  			<artifactId>wire.api</artifactId>
+ 			 <version>0.0.1-SNAPSHOT</version>
+  		</dependency>
+  
      <!-- 数据库驱动类库-->
         <dependency>
             <groupId>mysql</groupId>
