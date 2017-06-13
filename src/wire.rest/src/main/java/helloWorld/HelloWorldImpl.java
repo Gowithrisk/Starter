@@ -17,6 +17,7 @@ public class HelloWorldImpl implements IHelloWorldRest
 	@Override
 	public String sayHello()
 	{
+		log.info("sayHello, check!");
 		String something = null;
 		try
 		{
